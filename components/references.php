@@ -14,14 +14,14 @@
         <div class="carousel-container">
             <div class="carousel-track">
                 <!-- Les logos sont dupliqués pour créer un effet de défilement infini -->
-                <img src="./assets/images/logos/iti.jpg" alt="Centre" class="partner-logo">
+                <img src="./assets/images/logos/ITI.png" alt="Centre" class="partner-logo">
                 <img src="./assets/images/logos/bollore.png" alt="Bollore" class="partner-logo">
-                <img src="./assets/images/logos/baci.jpg" alt="Banque" class="partner-logo">
+                <img src="./assets/images/logos/BACI.png" alt="Banque" class="partner-logo">
                 <img src="./assets/images/logos/soned.jpg" alt="SONED" class="partner-logo">
                 <!-- Duplication des logos pour l'effet continu -->
-                <img src="./assets/images/logos/iti.jpg" alt="Centre" class="partner-logo">
+                <img src="./assets/images/logos/ITI.png" alt="Centre" class="partner-logo">
                 <img src="./assets/images/logos/bollore.png" alt="Bollore" class="partner-logo">
-                <img src="./assets/images/logos/baci.jpg" alt="Banque" class="partner-logo">
+                <img src="./assets/images/logos/BACI.png" alt="Banque" class="partner-logo">
                 <img src="./assets/images/logos/soned.jpg" alt="SONED" class="partner-logo">
             </div>
         </div>

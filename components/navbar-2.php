@@ -1,6 +1,7 @@
 <nav class="top-nav">
     <div class="nav-content">
-        <img src="https://placeholder.com/150x45" alt="TERUBCE Logo" class="logo">
+        <!-- <img src="https://placeholder.com/150x45" alt="TERUBCE Logo" class="logo"> -->
+        <img src="assets/images/logo.png" alt="TERUBCE Logo" class="logo">
         <div class="nav-middle">
             <a href="index.php">Accueil</a>
             <a href="qui-sommes-nous.php">Qui sommes nous</a>

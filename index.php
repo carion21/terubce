@@ -6,7 +6,8 @@
 <?php include('components/head.php'); ?>
 
 <body>
-    <?php include('components/navbar.php'); ?>
+    <?php //include('components/navbar.php'); ?>
+    <?php include('components/navbar-2.php'); ?>
 
     <?php include('components/header.php'); ?>
 

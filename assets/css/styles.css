@@ -12,10 +12,23 @@
     margin: 0;
 }
 
+/* .top-nav { */
+/* background: rgba(255, 255, 255, 0.9); */
+/* Légèrement transparent */
+/* position: fixed;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    height: 80px;
+    backdrop-filter: blur(5px); */
+/* Effet de flou derrière la navbar */
+/* } */
+
 .top-nav {
     background: rgba(255, 255, 255, 0.9);
     /* Légèrement transparent */
-    position: fixed;
+    position: relative;
+    /* Remplace fixed par relative */
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
@@ -87,7 +100,7 @@
     height: 80vh;
     position: relative;
     background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/home1.jpg') center/cover;
-    margin-top: 80px;
+    /* margin-top: 80px; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -472,7 +485,7 @@
     display: flex;
     align-items: baseline;
     gap: 0.5rem;
-    font-size: 1.1rem;
+    font-size: 0.7rem;
 }
 
 .label {
@@ -675,7 +688,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .page-header-2 {
@@ -686,7 +699,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .page-header-4 {
@@ -697,7 +710,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .page-header-5 {
@@ -708,7 +721,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 80px;
+    /* margin-top: 80px; */
 }
 
 .header-overlay {
@@ -784,9 +797,9 @@ footer {
 
 .text-content2 p {
     color: #666;
-    line-height: 1.8;
+    line-height: 1.4;
     margin-bottom: 2.5rem;
-    font-size: 1.45rem;
+    font-size: 1.25rem;
 }
 
 /* Enterprise Section */
@@ -911,6 +924,14 @@ REALISATIONS
     padding: 20px;
     background-color: rgba(173, 216, 230, 0.2);
 }
+/* 
+.gallery-track {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    animation: scroll 20s linear infinite;
+    white-space: nowrap;
+} */
 
 .gallery-item {
     flex: 1;

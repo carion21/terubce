@@ -7,9 +7,10 @@
             <div class="about-content">
                 <h2 class="section-title" style="text-align: left;">QUI SOMMES NOUS</h2>
                 <div class="about-text">
-                    <p>Créée en 2013, TSOUCE est une entreprise de construction spécialisée qui accompagne les entreprises et particuliers dans leurs projets de construction. Nous nous sommes imposés comme l'un des partenaires de référence pour de grands projets.</p>
+                    <p>
+                        Le Bureau d’Etudes TERUB CE tire son origine de l’Entreprise BURET CE qui a été créé en 2011 avec pour activités principales les ETUDES et TRAVAUX EN GENIE CIVIL. BURET CE a subi une réorganisation en 2022 visant non seulement à éviter l’incompatibilité de ses activités (études et travaux) mais aussi et surtout pour le respect des principes déontologiques de la profession d’études.
+                    </p>
                     <br>
-                    <p>Nos équipes pluridisciplinaires, majoritairement sur tout projet de Génie Civil dans les domaines suivants : VRD, Hydraulique Voirie et Réseaux Divers, Infrastructure de télécommunication et électrique, Topographie, Equipement.</p>
 
                     <p style="float: right; margin-top: 0.9rem">
                         <a href="./qui-sommes-nous.php" class="btn-savoir">EN SAVOIR +</a>

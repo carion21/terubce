@@ -26,8 +26,14 @@
                     <div class="presentation-content">
                         <h2 class="section-title" style="text-align: left;">QUI SOMMES NOUS</h2>
                         <div class="text-content2">
-                            <p>Créé en 2011, BURET CE accompagne les entreprises et particuliers dans leurs projets de génie civil. Grâce à la compétence de nos collaborateurs nous sommes devenus des partenaires de référence pour de grands groupes.</p>
-                            <p>Nos équipes pluridisciplinaires interviennent sur tout projet de Génie Civil dans les domaines du Bâtiment: Ponts et Chaussées, Construction Métallique et Bois, Hydraulique, Voirie et Réseaux Divers, Infrastructures de télécommunication et électrique, Topographie, Environnement...</p>
+                            <p>
+                                TERUB CE est une structure d’études techniques et de coordination dans le domaine du Génie Civil qui accompagne les entreprises et particuliers dans leurs projets de génie civil.
+                                Partenaires et futurs collaborateurs, vous trouverez sur ce site toutes les informations concernant notre structure, nos principales compétences, nos expériences.
+                                Grâce à la compétence de nos collaborateurs nous sommes devenus des partenaires de référence pour de grands groupes.
+                            </p>
+                            <p>
+                                Nos équipes pluridisciplinaires interviennent sur tout projet de Génie Civil dans les domaines du Bâtiment, Ponts et Chaussées, Construction Métallique et Bois, Hydraulique, Voirie et Réseaux Divers, Infrastructures de télécommunication et électrique, Topographie, Environnement…
+                            </p>
                         </div>
                     </div>
                 </div>
