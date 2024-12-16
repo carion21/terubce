@@ -1,16 +1,23 @@
 <nav class="top-nav">
     <div class="nav-content">
-        <!-- <img src="https://placeholder.com/150x45" alt="TERUBCE Logo" class="logo"> -->
-        <img src="assets/images/logo.png" alt="TERUBCE Logo" class="logo">
+        <a href="index.php">
+            <img src="assets/images/logo.png" alt="TERUBCE Logo" class="logo">
+        </a>
+        <button class="hamburger" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <div class="nav-middle">
             <a href="index.php">Accueil</a>
             <a href="qui-sommes-nous.php">Qui sommes nous</a>
             <a href="services.php">Services</a>
-            <a href="realisations.php">Réalisations</a>
+            <a href="realisations.php">Suivis</a>
             <a href="references.php">Références</a>
             <a href="contacts.php">Contacts</a>
         </div>
         <div class="social-icons">
+            <!-- Social icons -->
             <!-- Facebook Icon -->
             <a href="#" class="social-icon">
                 <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
@@ -35,3 +42,17 @@
         </div>
     </div>
 </nav>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const hamburger = document.querySelector('.hamburger');
+        const navMiddle = document.querySelector('.nav-middle');
+
+        if (hamburger && navMiddle) {
+            hamburger.addEventListener('click', function() {
+                hamburger.classList.toggle('active');
+                navMiddle.classList.toggle('active');
+            });
+        }
+    });
+</script>

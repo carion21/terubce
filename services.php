@@ -149,6 +149,85 @@
         }
     </style>
 
+    <style>
+        .services-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .services-container {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .category-title.active::after {
+            content: '-';
+        }
+
+        .service-list {
+            list-style: none;
+            padding: 0;
+            display: none;
+            max-height: 0;
+            overflow: hidden;
+            transition: max-height 0.3s ease-in-out, padding 0.3s ease-in-out, opacity 0.3s ease;
+            opacity: 0;
+            /* Masqué par défaut */
+        }
+
+        .service-list.open {
+            display: block;
+            opacity: 1;
+            /* Rendre visible avec l'animation */
+        }
+
+
+        .service-list.active {
+            display: block;
+            margin-top: 10px;
+        }
+
+        .service-list li {
+            padding: 8px 0;
+            color: #666;
+            font-size: 16px;
+        }
+
+        .service-list li:nth-child(odd) {
+            background-color: #f5f8ff;
+            padding-left: 10px;
+        }
+
+        .service-list.open {
+            max-height: 1000px;
+            /* Assurez-vous que cette valeur est suffisamment grande pour contenir le contenu */
+            padding: 8px 0;
+            display: block;
+            /* Cela permet de forcer l'affichage des éléments dans la liste */
+        }
+
+
+        .category-title {
+            cursor: pointer;
+            position: relative;
+        }
+
+        .category-title::after {
+            content: '▼';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .category-title.open::after {
+            transform: translateY(-50%) rotate(180deg);
+        }
+    </style>
+
     <!-- Hero Section avec titre -->
     <header class="page-header-2">
         <div class="header-overlay"></div>
@@ -263,5 +342,22 @@
 
     <?php include('components/scripts.php'); ?>
 </body>
+
+<script>
+    document.addEventListener('DOMContentLoaded', () => {
+        const categoryTitles = document.querySelectorAll('.category-title');
+
+        categoryTitles.forEach(title => {
+            title.addEventListener('click', () => {
+                const serviceList = title.nextElementSibling;
+
+                // Toggle the "open" class for the list
+                serviceList.classList.toggle('open');
+                title.classList.toggle('open');
+            });
+        });
+    });
+</script>
+
 
 </html>
