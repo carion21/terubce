@@ -20,7 +20,7 @@
         }
 
         .category-title {
-            background-color: #789E35;
+            background-color: #4784ca;
             color: white;
             padding: 10px 30px;
             font-size: 24px;
@@ -54,7 +54,7 @@
             max-width: 100%;
             max-height: 100%;
             object-fit: contain;
-        }
+        } 
     </style>
 
     <!-- Hero Section avec titre -->

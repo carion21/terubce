@@ -1,7 +1,7 @@
 /* <style> */
 :root {
-    --primary-color: #009ee2;
-    --secondary-color: #54ace9;
+    --primary-color: #0a1f2e;
+    --secondary-color: #2f8e89;
     --white: #ffffff;
     --light-gray: #eaeaea;
     --text-color: #333;
@@ -17,10 +17,6 @@ body {
     font-family: 'Montserrat', sans-serif;
     line-height: 1.6;
     color: var(--text-color);
-}
-
-d-none {
-    display: none;
 }
 
 /* Navigation Responsive */
@@ -407,8 +403,8 @@ d-none {
 
 /* <style> */
 :root {
-    --dark-blue: #009ee2;
-    --primary-blue: #54ace9;
+    --dark-blue: #0a1f2e;
+    --primary-blue: #2f8e89;
     --light-gray: #e5e5e5;
     --text-gray: #666;
 }
@@ -694,7 +690,6 @@ d-none {
     margin-bottom: 1rem;
     font-size: 1.2rem;
     line-height: 1.4;
-    text-align: center;
 }
 
 .btn-savoir {
@@ -792,7 +787,7 @@ d-none {
 
 .section-title {
     text-align: center;
-    color: #009ee2;
+    color: #0a1f2e;
     font-size: 2rem;
     font-weight: 700;
     margin-bottom: 3rem;
@@ -903,7 +898,7 @@ d-none {
 }
 
 .contact-form {
-    background: #009ee2;
+    background: #0a1f2e;
     padding: 2.5rem;
     border-radius: 8px;
     display: flex;
@@ -939,7 +934,7 @@ d-none {
 }
 
 .contact-form button {
-    background: #54ace9;
+    background: #2f8e89;
     color: white;
     border: none;
     padding: 1rem;
@@ -953,7 +948,7 @@ d-none {
 .contact-form input:focus,
 .contact-form textarea:focus {
     outline: none;
-    border-color: #54ace9;
+    border-color: #2f8e89;
 }
 
 /* Responsive Breakpoints */
@@ -1187,7 +1182,7 @@ footer {
 }
 
 .section-title {
-    color: #009ee2;
+    color: #0a1f2e;
     font-size: 1.5rem;
     /* Réduction de taille sur petits écrans */
     margin-bottom: 1rem;
@@ -1243,7 +1238,7 @@ footer {
 }
 
 .enterprise-block h3 {
-    color: #009ee2;
+    color: #0a1f2e;
     font-size: 1.5rem;
     margin-bottom: 1rem;
     font-weight: 600;

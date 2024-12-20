@@ -59,7 +59,7 @@
         }
 
         .service-presentation h2 {
-            color: #1a237e;
+            color: #009ee2;
             font-size: 28px;
             margin-bottom: 20px;
         }
@@ -71,7 +71,7 @@
         }
 
         .appointment-btn {
-            background-color: #789E35;
+            background-color: #54ace9;
             color: white;
             padding: 12px 24px;
             border: none;
@@ -84,7 +84,7 @@
             text-align: center;
             font-size: 32px;
             font-weight: bold;
-            color: #1a237e;
+            color: #009ee2;
             margin: 50px 0 30px;
         }
 
@@ -110,7 +110,7 @@
 
         .category-title {
             font-size: 24px;
-            color: #1a237e;
+            color: #009ee2;
             margin-bottom: 20px;
         }
 

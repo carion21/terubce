@@ -21,7 +21,7 @@
 
     <?php include('components/references.php'); ?>
 
-    <?php // include('components/contacts.php'); ?>
+    <?php include('components/contacts.php'); ?>
 
     <?php include('components/footer.php'); ?>
 
