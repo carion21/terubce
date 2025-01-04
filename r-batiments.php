@@ -9,7 +9,7 @@
     <style>
         /* Conteneur global */
         .container {
-            min-height: 50vh;
+            /* min-height: 50vh; */
             /* Assure que le conteneur prend toute la hauteur de la page */
             display: flex;
             flex-direction: column;
@@ -55,6 +55,14 @@
         .references-section {
             padding: 20px;
             background-color: #f9f9f9;
+        }
+
+        .references-title {
+            text-align: center;
+            font-size: 32px;
+            font-weight: bold;
+            color: #009ee2;
+            margin: 50px 0 30px;
         }
 
         .references-container {
@@ -137,6 +145,58 @@
     <div class="container">
         <?php include('components/references-section.php'); ?>
     </div>
+
+    <section class="references-section">
+
+        <h2 class="references-title">
+            BATIMENTS
+        </h2>
+
+        <div class="references-container">
+            <!-- Bloc Bureau d'études -->
+            <div class="reference-block">
+                <div class="reference-content">
+                    <h3 class="reference-title">
+                        Batiment 1
+                    </h3>
+                    <p class="reference-description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="reference-image">
+                    <img src="https://place-hold.it/500x300" alt="Bureau d'études">
+                </div>
+            </div>
+
+            <div class="reference-block">
+                <div class="reference-content">
+                    <h3 class="reference-title">
+                        Batiment 2
+                    </h3>
+                    <p class="reference-description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="reference-image">
+                    <img src="https://place-hold.it/500x300" alt="Bureau d'études">
+                </div>
+            </div>
+
+            <div class="reference-block">
+                <div class="reference-content">
+                    <h3 class="reference-title">
+                        Batiment 3
+                    </h3>
+                    <p class="reference-description">
+                        Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    </p>
+                </div>
+                <div class="reference-image">
+                    <img src="https://place-hold.it/500x300" alt="Bureau d'études">
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <?php include('components/footer.php'); ?>

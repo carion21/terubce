@@ -25,7 +25,7 @@
 
         .service-card {
             position: relative;
-            height: 300px;
+            height: 500x300px;
             overflow: hidden;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
@@ -226,6 +226,77 @@
         .category-title.open::after {
             transform: translateY(-50%) rotate(180deg);
         }
+
+        .services-section {
+            padding: 20px;
+            background-color: #f9f9f9;
+        }
+
+        .services-container {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .service-block {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: #fff;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 20px;
+            width: 100%;
+        }
+
+        .service-block.reverse-layout {
+            flex-direction: row-reverse;
+        }
+
+        .service-content,
+        .service-image {
+            flex: 1;
+            max-width: 50%;
+        }
+
+        .service-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            /* Assure que le contenu commence en haut */
+            padding: 20px;
+        }
+
+        .service-title {
+            margin-top: 0;
+            /* Supprime tout espacement supplémentaire en haut */
+            margin-bottom: 15px;
+            /* Ajoute un espace après le titre */
+            font-size: 1.8rem;
+            color: #333;
+        }
+
+        .service-description {
+            margin-top: auto;
+            /* Pousse la description un peu vers le bas */
+            font-size: 1.1rem;
+            color: #666;
+            line-height: 1.5;
+        }
+
+
+        .service-image {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .service-image img {
+            max-width: 90%;
+            max-height: 100%;
+            border-radius: 8px;
+            object-fit: cover;
+        }
     </style>
 
     <!-- Hero Section avec titre -->
@@ -238,105 +309,28 @@
 
 
     <section class="services-section">
+
         <!-- Slider des services -->
-        <div class="services-slider">
-            <div class="service-card">
-                <img src="assets/images/service2.jpg" alt="Travaux topographiques">
-                <div class="service-card-title">Travaux topographiques</div>
-            </div>
-            <div class="service-card">
-                <img src="assets/images/service1.jpg" alt="Bureau d'études">
-                <div class="service-card-title">Bureau d'études</div>
-            </div>
-            <div class="service-card">
-                <img src="assets/images/home1.jpg" alt="Assistance technique">
-                <div class="service-card-title">Assistance technique</div>
-            </div>
-        </div>
+        <?php include('components/services-slider.php'); ?>
 
-        <!-- Présentation du service -->
-        <div class="service-presentation">
-            <h2>BUREAU D'ÉTUDES</h2>
-            <p>Créé en 2011, TERUB CE accompagne les entreprises et particuliers dans leurs projets de génie civil. Grâce à la compétence de nos collaborateurs nous sommes devenus des partenaires de référence pour de grands groupes.</p>
-            <div class="slider-dots">
-                <span class="dot"></span>
-                <span class="dot active"></span>
-                <span class="dot"></span>
-                <span class="dot"></span>
-            </div>
-            <button class="appointment-btn">Prendre rendez-vous</button>
-        </div>
+        <h2 class="services-title" style="display: none;">NOS SERVICES</h2>
 
-        <!-- Liste des services réorganisée -->
-        <h2 class="services-title">NOS SERVICES</h2>
         <div class="services-container">
-            <!-- Colonne de gauche avec Assistance technique et Travaux topographiques -->
-            <div class="services-left">
-                <div class="service-category">
-                    <h3 class="category-title">Assistance technique</h3>
-                    <ul class="service-list">
-                        <li>Direction et pilotage de chantiers : préparation de travaux, supervision de travaux, pré-réception, réception et mise en route, animation HSE</li>
-                        <li>Management de projet : planning, audit – diagnostic, économie de la construction.</li>
-                    </ul>
+            <!-- Bloc Bureau d'études -->
+            <div class="service-block">
+                <div class="service-content">
+                    <h3 class="service-title">Bureau d'études</h3>
+                    <p class="service-description">
+                        Conception et supervision de projets complexes : béton, charpentes, VRD, hydraulique et solutions environnementales, adaptées à vos besoins.
+                    </p>
                 </div>
-                <div class="service-category">
-                    <h3 class="category-title">Travaux topographiques</h3>
-                    <ul class="service-list">
-                        <li>Levers topographiques</li>
-                        <li>Implantation d'ouvrages</li>
-                        <li>Auscultation d'ouvrage d'art</li>
-                        <li>Etude et tracé de réseau électrique</li>
-                        <li>Etude et tracé de réseau hydraulique</li>
-                        <li>Lever Bathymétrique</li>
-                        <li>Lever souterrain et détermination des cubatures de minerai</li>
-                        <li>Géomatique</li>
-                    </ul>
+                <div class="service-image">
+                    <img src="https://place-hold.it/500x300" alt="Bureau d'études">
                 </div>
-            </div>
-
-            <!-- Colonne de droite avec Bureau d'études -->
-            <div class="service-category">
-                <h3 class="category-title">Bureau d'études</h3>
-                <ul class="service-list">
-                    <li>Etude Béton : structure</li>
-                    <li>Constructions neuves</li>
-                    <li>Réhabilitations</li>
-                    <li>Aménagement Bureaux</li>
-                    <li>Etude Charpente</li>
-                    <li>Structures métalliques</li>
-                    <li>Structures bois</li>
-                    <li>Equipements</li>
-                    <li>Electricité courant fort/courant faible</li>
-                    <li>Téléphone et informatique</li>
-                    <li>Sécurité incendie</li>
-                    <li>Domotique</li>
-                    <li>Voirie et Réseaux Divers (VRD)</li>
-                    <li>Terrassement généraux</li>
-                    <li>Aménagement voirie</li>
-                    <li>Aménagement espace vert</li>
-                    <li>Hydraulique</li>
-                    <li>Adduction en Eau potable</li>
-                    <li>Hydraulique agricole</li>
-                    <li>Drainage eaux pluviales</li>
-                    <li>Assainissement individuel et collectif (EV & EU)</li>
-                    <li>Ponts et Chaussées</li>
-                    <li>Ponts</li>
-                    <li>Dalots et autres ouvrages de franchissement</li>
-                    <li>Ouverture et réhabilitation de piste</li>
-                    <li>Projet routier</li>
-                    <li>Economie de la construction</li>
-                    <li>Métrés et pièces écrites</li>
-                    <li>Audit – Diagnostic</li>
-                    <li>Gestion des corps d'états secondaires</li>
-                    <li>Revêtements souples et durs, Peintures, Faux plafond, Menuiserie, Aluminium</li>
-                    <li>Environnement</li>
-                    <li>Etude Environnementale</li>
-                    <li>Audit Environnemental</li>
-                    <li>Suivi Environnemental</li>
-                </ul>
             </div>
         </div>
     </section>
+
 
     <?php include('components/footer.php'); ?>
 

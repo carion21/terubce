@@ -2,13 +2,18 @@
     <div class="hero-content">
         <br>
         <br>
-        <span class="hc1">
-            ARCHITECTURE
-        </span>
+        <span class="hc1"></span>
         <br>
-        <span class="hc2">
-            CONTEMPORAINE
-        </span>
+        <p>
+            <span class="hc2">
+                BUREAU D'ÉTUDES
+            </span>
+        </p>
+        <p>
+            <span class="hc2">
+            TECHNIQUES
+            </span>
+        </p>
     </div>
     <div class="slider-dots">
         <div class="dot active"></div>

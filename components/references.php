@@ -31,14 +31,15 @@
 <style>
     .partners {
         background: #eef7ff;
-        padding: 4rem 0;
+        padding: 2rem 0;
         overflow: hidden;
+        margin-bottom: 1rem;
     }
 
     .partners-container {
         max-width: 1200px;
-        margin: 0 auto;
-        padding: 0 2rem;
+        /* margin: 0 auto; */
+        /* padding: 0 2rem; */
     }
 
     .section-title {
@@ -46,14 +47,14 @@
         color: #0a1f2e;
         font-size: 2rem;
         font-weight: 700;
-        margin-bottom: 3rem;
+        /* margin-bottom: 3rem; */
     }
 
     .carousel-container {
         position: relative;
         width: 100%;
         overflow: hidden;
-        padding: 2rem 0;
+        /* padding: 2rem 0; */
     }
 
     .carousel-track {
