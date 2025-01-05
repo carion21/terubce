@@ -130,6 +130,27 @@
             border-radius: 8px;
             object-fit: cover;
         }
+
+         @media (max-width: 576px) {
+
+            .reference-block {
+                display: flex;
+                flex-direction: column;
+                width: 100%;
+            }
+
+            .reference-image img{
+                max-width: 100%;
+            }
+
+            .reference-content, 
+            .reference-image {
+              margin-bottom: 20px;
+              display: block;
+              max-width: 100%;
+              padding: unset;
+            }
+        }
     </style>
 
     <?php include('components/navbar-2.php'); ?>

@@ -160,6 +160,16 @@
             .services-container {
                 grid-template-columns: 1fr;
             }
+
+            .services-slider {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
+
+        @media (max-width: 576px) {
+            .services-slider {
+                grid-template-columns: 1fr;
+            }
         }
 
         .category-title.active::after {
