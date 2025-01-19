@@ -9,11 +9,6 @@
     <?php include('components/navbar-2.php'); ?>
 
     <style>
-        
-        p{
-            margin-bottom: 10px;
-        }
-
         .services-section {
             max-width: 1200px;
             margin: 0 auto;
@@ -165,6 +160,10 @@
             content: '-';
         }
 
+        .category-title.active::after {
+            content: '-';
+        }
+
         .service-list {
             list-style: none;
             padding: 0;
@@ -252,7 +251,16 @@
             flex-direction: row-reverse;
         }
 
+        .service-content,
+        .service-image {
+            flex: 1;
+            max-width: 50%;
+        }
+
         .service-content {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
             /* Assure que le contenu commence en haut */
             padding: 20px;
         }
@@ -263,7 +271,6 @@
             margin-bottom: 15px;
             /* Ajoute un espace après le titre */
             font-size: 1.8rem;
-            font-weight: bold;
             color: #333;
         }
 
@@ -288,7 +295,7 @@
             border-radius: 8px;
             object-fit: cover;
         }
-
+        
         @media (max-width: 768px) {
             .services-container {
                 grid-template-columns: 1fr;
@@ -321,7 +328,6 @@
                 max-width: 100%;
             }
         }
-
     </style>
 
     <!-- Hero Section avec titre -->
@@ -341,28 +347,16 @@
         <h2 class="services-title" style="display: none;">NOS SERVICES</h2>
 
         <div class="services-container">
-            <!-- Bloc Travaux topographiques -->
+            <!-- Bloc Assistance technique -->
             <div class="service-block">
-               <!--  <div class="service-image">
-                    <img src="https://place-hold.it/500x300" alt="Travaux topographiques">
-                </div> -->
                 <div class="service-content">
                     <h3 class="service-title">Assistance technique</h3>
-                    <div class="service-description">
-                        <p>Nous sommes une équipe spécialisée en assistance technique, dédiée à garantir le bon fonctionnement de vos systèmes, équipements et infrastructures. Notre mission est d’apporter des solutions rapides, efficaces et sur mesure, afin de répondre à vos besoins spécifiques.</p>
-
-                       <p> Grâce à notre expertise technique et à une solide expérience sur le terrain, nous intervenons dans de nombreux domaines, notamment :</p>
-
-                        <p>La maintenance préventive et corrective de vos équipements.
-                                                L’installation et la configuration de systèmes techniques complexes.
-                                                La formation des utilisateurs pour qu’ils exploitent pleinement leurs outils.
-                                                Un accompagnement personnalisé pour résoudre tout problème technique et optimiser vos infrastructures.
-                                                Nous mettons un point d’honneur à anticiper vos besoins et à prévenir les dysfonctionnements grâce à une approche proactive. En tant que partenaires techniques, nous sommes à l’écoute de vos préoccupations pour garantir des résultats durables et adaptés à vos attentes.</p>
-
-                        <p>Si vous recherchez une équipe réactive, fiable et passionnée par le service technique, nous serons ravis de collaborer avec vous pour relever vos défis et assurer le succès de vos projets.</p>
-
-                        <p>Merci pour votre attention et à bientôt pour échanger davantage sur vos besoins.</p>
-                    </div>
+                    <p class="service-description">
+                        Gestion complète des chantiers : préparation, supervision, réception, mise en route et animation HSE. Management de projet pour garantir des livraisons réussies.
+                    </p>
+                </div>
+                <div class="service-image">
+                    <img src="https://place-hold.it/500x300" alt="Assistance technique">
                 </div>
             </div>
         </div>

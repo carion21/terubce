@@ -9,6 +9,11 @@
     <?php include('components/navbar-2.php'); ?>
 
     <style>
+        
+        p{
+            margin-bottom: 10px;
+        }
+
         .services-section {
             max-width: 1200px;
             margin: 0 auto;
@@ -247,16 +252,7 @@
             flex-direction: row-reverse;
         }
 
-        .service-content,
-        .service-image {
-            flex: 1;
-            max-width: 50%;
-        }
-
         .service-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
             /* Assure que le contenu commence en haut */
             padding: 20px;
         }
@@ -267,6 +263,7 @@
             margin-bottom: 15px;
             /* Ajoute un espace après le titre */
             font-size: 1.8rem;
+            font-weight: bold;
             color: #333;
         }
 
@@ -346,14 +343,25 @@
         <div class="services-container">
             <!-- Bloc Travaux topographiques -->
             <div class="service-block">
-                <div class="service-image">
+               <!--  <div class="service-image">
                     <img src="https://place-hold.it/500x300" alt="Travaux topographiques">
-                </div>
+                </div> -->
                 <div class="service-content">
                     <h3 class="service-title">Travaux topographiques</h3>
-                    <p class="service-description">
-                        Réalisation précise de levers topographiques, implantation d'ouvrages, études de réseaux (électrique et hydraulique), et analyses géomatiques.
-                    </p>
+                    <div class="service-description">
+                        <p>Nous sommes une équipe d'experts en travaux topographiques, spécialisés dans la transformation des idées et des projets en réalité grâce à des données précises et fiables sur le terrain.
+                        </p>
+                        <p>Notre équipe maîtrise une large gamme d'outils modernes de mesure, notamment les stations totales, les drones, les systèmes GPS avancés, ainsi que des logiciels de pointe comme AutoCAD, Civil 3D et QGIS. Ces technologies nous permettent de réaliser des relevés détaillés, des analyses géospatiales et des plans techniques parfaitement adaptés aux besoins de nos clients.</p>
+
+                        <p>Nos domaines d’expertise incluent :</p>
+
+                        <p>Les projets de construction, tels que les routes, bâtiments et ponts. Les études cadastrales pour la délimitation de parcelles. Les études d’impact environnemental et les aménagements urbains.
+                                                La gestion des ressources naturelles et des projets d’exploitation. Nous nous engageons à fournir un travail rigoureux et conforme aux normes en vigueur. Grâce à une collaboration étroite avec nos partenaires et clients, nous garantissons des solutions adaptées et sur mesure pour chaque projet.</p>
+
+                        <p>Si vous recherchez une équipe de professionnels passionnés, capables d’assurer la précision et la fiabilité de vos travaux topographiques, nous sommes prêts à vous accompagner. Ensemble, construisons un avenir solide et bien mesuré.</p>
+
+                        <p>Merci pour votre attention.</p>
+                    </div>
                 </div>
             </div>
         </div>

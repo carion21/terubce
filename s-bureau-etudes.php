@@ -9,6 +9,11 @@
     <?php include('components/navbar-2.php'); ?>
 
     <style>
+        
+        p{
+            margin-bottom: 10px;
+        }
+
         .services-section {
             max-width: 1200px;
             margin: 0 auto;
@@ -247,16 +252,7 @@
             flex-direction: row-reverse;
         }
 
-        .service-content,
-        .service-image {
-            flex: 1;
-            max-width: 50%;
-        }
-
         .service-content {
-            display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
             /* Assure que le contenu commence en haut */
             padding: 20px;
         }
@@ -267,6 +263,7 @@
             margin-bottom: 15px;
             /* Ajoute un espace après le titre */
             font-size: 1.8rem;
+            font-weight: bold;
             color: #333;
         }
 
@@ -324,6 +321,7 @@
                 max-width: 100%;
             }
         }
+
     </style>
 
     <!-- Hero Section avec titre -->
@@ -343,16 +341,29 @@
         <h2 class="services-title" style="display: none;">NOS SERVICES</h2>
 
         <div class="services-container">
-            <!-- Bloc Bureau d'études -->
+            <!-- Bloc Travaux topographiques -->
             <div class="service-block">
+               <!--  <div class="service-image">
+                    <img src="https://place-hold.it/500x300" alt="Travaux topographiques">
+                </div> -->
                 <div class="service-content">
                     <h3 class="service-title">Bureau d'études</h3>
-                    <p class="service-description">
-                        Conception et supervision de projets complexes : béton, charpentes, VRD, hydraulique et solutions environnementales, adaptées à vos besoins.
-                    </p>
-                </div>
-                <div class="service-image">
-                    <img src="https://place-hold.it/500x300" alt="Bureau d'études">
+                    <div class="service-description">
+                        <p>Notre mission est simple : donner vie à vos projets grâce à des données topographiques fiables et précises. Nous sommes une équipe de spécialistes passionnés, dotés des meilleures technologies et d’une expertise approfondie pour relever vos défis techniques, quels qu’ils soient.
+                        </p>
+                        <p>Nous savons qu’un projet bien conçu commence par une compréhension parfaite du terrain. C’est pourquoi nous utilisons des outils modernes tels que les drones, les GPS de haute précision, et des logiciels de cartographie avancés pour capturer chaque détail, du plus simple au plus complexe.</p>
+
+                        <p>Mais ce qui nous distingue, c’est notre approche. Nous ne sommes pas seulement des techniciens ; nous sommes des partenaires. Que ce soit pour construire une route, délimiter un terrain, ou planifier un aménagement urbain, nous travaillons main dans la main avec nos clients pour transformer leurs idées en résultats concrets et mesurables.</p>
+
+                        <p>Voici quelques exemples de ce que nous faisons :</p>
+
+                        <p>Nous aidons les entreprises de construction à bâtir sur des bases solides.
+                                                Nous accompagnons les collectivités dans leurs projets d’aménagement du territoire.
+                                                Nous offrons des solutions sur mesure pour la gestion des ressources naturelles et des infrastructures.
+                                                Notre objectif est clair : garantir la précision, l’efficacité et la réussite de vos projets. En collaborant avec [Nom de votre bureau d’études], vous optez pour l’excellence et la tranquillité d’esprit.</p>
+
+                        <p>Nous sommes impatients de contribuer à vos réalisations. Merci de nous avoir accordé votre attention, et n’hésitez pas à venir nous rencontrer pour discuter de vos besoins.</p>
+                    </div>
                 </div>
             </div>
         </div>

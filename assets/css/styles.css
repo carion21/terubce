@@ -491,7 +491,6 @@ d-none {
 .about-image-container {
     position: relative;
     width: 100%;
-    height: 300px;
 }
 
 .about-image {
@@ -584,11 +583,11 @@ d-none {
     }
 
     .about-image {
-        min-height: 600px;
+        height: 350px;
     }
 
     .about-content {
-        min-height: 600px;
+        height: auto;
     }
 
     .image-gallery img {
